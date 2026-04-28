@@ -1,9 +1,48 @@
-This repository presents a data analysis of Amazon bestselling books from 2009–2019. The purpose of the analysis is to better understand patterns behind book popularity by examining factors such as user ratings, number of reviews, pricing, genre distribution, and publication trends across multiple years.
+📊 Amazon Bestsellers Data Analysis (2009–2019)
+Overview
 
-The dataset was first imported and cleaned using Python, where inconsistencies were corrected, duplicate records were removed, and columns were standardized for accurate analysis. The Pandas library was used to organize the dataset, perform descriptive statistics, and explore relationships between important variables such as ratings, reviews, and price.
+This project performs an exploratory data analysis (EDA) of Amazon bestselling books from 2009 to 2019. The objective is to identify patterns in book popularity by analyzing features such as user ratings, review counts, pricing, genre distribution, and publication trends over time.
 
-After the data preparation stage, key insights were generated through exploratory analysis. These insights helped identify trends in reader engagement, rating consistency among bestselling titles, and how pricing relates to review activity and overall popularity.
+🛠️ Tech Stack
+Python
+Pandas
+NumPy
+Matplotlib
+Seaborn
+Tableau Public
+📂 Data Preprocessing
 
-To communicate the results visually, an interactive dashboard was created using Tableau Public. The dashboard includes multiple visualizations that allow users to explore distributions of ratings, review activity, and other relationships within the dataset. These visuals make it easier to interpret the data and highlight meaningful patterns across bestselling books.
+The dataset was cleaned and preprocessed using Python to ensure data quality and consistency:
 
-A presentation was also developed to summarize the visualizations and explain the main insights derived from the analysis. Together, the Python analysis, dashboard visualizations, and presentation provide a complete overview of how data can be used to explore trends in bestselling books and reader behavior.
+Handled missing values and removed duplicate records
+Standardized column names and data types
+Filtered and structured variables for analysis readiness
+Performed feature inspection using Pandas profiling techniques
+📊 Exploratory Data Analysis (EDA)
+
+Key statistical and visual analyses were conducted to understand dataset structure and relationships:
+
+Distribution analysis of ratings and review counts
+Correlation analysis between price, ratings, and reviews
+Genre-level aggregation to identify top-performing categories
+Temporal trend analysis across publication years
+Identification of engagement patterns in highly reviewed books
+📈 Visualization & Dashboard
+
+An interactive dashboard was developed using Tableau Public to enhance interpretability of findings. The dashboard includes:
+
+Rating distribution visualizations
+Review activity comparisons across books and genres
+Price vs engagement relationship analysis
+Year-wise trend exploration
+
+These visualizations provide an interactive layer for exploring relationships between key variables.
+
+📌 Key Insights
+Strong clustering of ratings among bestselling titles indicates limited variance in top-performing books
+Review volume shows a stronger correlation with popularity than price
+Certain genres consistently outperform others in both engagement and ratings
+Publishing trends indicate shifts in reader preference over time
+🚀 Conclusion
+
+This project demonstrates how structured data analysis can be used to extract meaningful insights from commercial book datasets. By combining Python-based EDA with Tableau visualizations, the project provides a comprehensive view of trends in reader behavior and bestseller dynamics.
